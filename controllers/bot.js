@@ -97,7 +97,7 @@ async function processQueue() {
         } else {
           await bot.sendMessage(
             chatId,
-            "Ops, deu ruim ao enviar seu link! Tenta de novo mais tarde!"
+            "Vish, deu ruim ao enviar seu link! Tenta de novo mais tarde!"
           );
           console.log(
             `Erro ao enviar mídia para o usuário ${chatId}. Tipo de mídia desconhecido.`
